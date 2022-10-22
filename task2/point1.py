@@ -4,5 +4,3 @@ def triangle(num_of_symb_on_each_side):
 
   for i in range(num):
     print(" "*(num-i) + symb*(i+(i-1)) + " "*(num-i))
-    
-triangle(3)
