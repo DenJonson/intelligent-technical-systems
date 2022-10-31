@@ -7,13 +7,8 @@ class NNClassifier:
   
   classList = []
   
-  def addClass(self, path):
+  def addClass(self, className, path):
     f = pd.read_csv(path)
-    f = np.array(f)
-    self.classList.append(f)
-    
-
-Classifier = NNClassifier()
-
-Classifier.addClass("task2\\point3\\taxi_zone_lookup.csv")
-print(Classifier)
+    self.classList.append([className, np.array(f)])
+  
+  
