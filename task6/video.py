@@ -23,9 +23,12 @@ while(1):
   
   cv.drawContours(frame, con, -1, (0,255,0), 1)
   cv.imshow('Camera', frame)
+  if cv.waitKey(1) & 0xFF == ord('c'):
+    Mask.rectangles = np.zeros((480, 640, 1), dtype = "uint8")
   #Quit from loop if "q" key was pressed
   if cv.waitKey(1) & 0xFF == ord('q'):
     break
+  
 
 # release the camera from video capture
 capture.release()
