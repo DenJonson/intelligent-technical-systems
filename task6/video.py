@@ -9,7 +9,7 @@ class Mask:
 def show_clicked(event, x, y, flags, param):
   if event == cv.EVENT_LBUTTONDOWN:
     #Рисую квадрат в заданном месте
-    cv.rectangle(param.rectangles, (x, y), (x+50, y+50), (255), thickness=2)
+    cv.rectangle(param.rectangles, (x-25, y-25), (x+25, y+25), (255), thickness=2)
     
 #Создаю объект с изображением с камеры
 capture = cv.VideoCapture(0)
