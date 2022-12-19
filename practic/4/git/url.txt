@@ -1,0 +1,3 @@
+https://github.com/DevDungeon/Cookbook
+https://github.com/lauragift21/awesome-learning-resources
+https://github.com/EbookFoundation/free-programming-books

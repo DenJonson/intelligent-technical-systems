@@ -1,0 +1,3 @@
+https://github.com/DevDungeon/Cookbook	FAIL
+https://github.com/lauragift21/awesome-learning-resources	FAIL
+https://github.com/EbookFoundation/free-programming-books	FAIL
